@@ -6,9 +6,9 @@ license = { text = "MIT" }
 readme = "README.md"
 
 [project.urls]
-Repository = "https://github.com/tack1031/tk_comfyui_view_and_light"
+Repository = "https://github.com/tackcrypto1031/tk_comfyui_view_and_light"
 
 [tool.comfy]
-PublisherId = "tack1031"
+PublisherId = "tackcrypto1031"
 DisplayName = "TK View & Light"
 Icon = ""

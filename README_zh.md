@@ -26,7 +26,7 @@
 1. 進入您 ComfyUI 的 `custom_nodes` 目錄。
 2. 複製此倉庫：
    ```bash
-   git clone https://github.com/Tack1031/tk_comfyui_view_and_light.git
+   git clone https://github.com/tackcrypto1031/tk_comfyui_view_and_light.git
    ```
 3. 重啟 ComfyUI。
 

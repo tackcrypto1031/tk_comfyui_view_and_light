@@ -26,7 +26,7 @@ A professional ComfyUI node that provides an interactive 3D widget for controlli
 1. Navigate to your ComfyUI `custom_nodes` directory.
 2. Clone this repository:
    ```bash
-   git clone https://github.com/Tack1031/tk_comfyui_view_and_light.git
+   git clone https://github.com/tackcrypto1031/tk_comfyui_view_and_light.git
    ```
 3. Restart ComfyUI.
 
