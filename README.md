@@ -3,6 +3,7 @@
 A professional ComfyUI node that provides an interactive 3D widget for controlling camera angles and lighting directions. This tool is designed to help creators easily visualize and generate precise prompts for 3D-aware image generation.
 
 ![Preview](https://github.com/tackcrypto1031/tk_comfyui_view_and_light/blob/main/sample/sample.png)
+![Preview](https://github.com/tackcrypto1031/tk_comfyui_view_and_light/blob/main/sample/sample2.png)
 
 ## 🚀 Key Features
 

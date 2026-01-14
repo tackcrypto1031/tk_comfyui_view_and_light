@@ -3,6 +3,7 @@
 這是一個專業的 ComfyUI 節點，提供互動式 3D 小部件來控制攝影機角度和燈光方向。本工具旨在幫助創作者輕鬆視覺化並生成精確的提示詞（Prompts），用於具備 3D 感知的圖像生成。
 
 ![預覽圖](https://github.com/tackcrypto1031/tk_comfyui_view_and_light/blob/main/sample/sample.png)
+![預覽圖](https://github.com/tackcrypto1031/tk_comfyui_view_and_light/blob/main/sample/sample2.png)
 
 ## 🚀 核心功能
 
