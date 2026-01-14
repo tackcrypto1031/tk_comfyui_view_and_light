@@ -20080,6 +20080,7 @@ const WIDGET_STYLES = `
     justify-content: space-around;
     align-items: center;
     backdrop-filter: blur(4px);
+    z-index: 20;
   }
 
   .qwen-multiangle-param {
@@ -20124,34 +20125,7 @@ const WIDGET_STYLES = `
     border-color: #E93D82;
   }
 
-  /* Direction Labels */
-  .tk-direction-labels {
-    position: absolute;
-    pointer-events: none;
-    top: 0; left: 0; right: 0; bottom: 0;
-    z-index: 10;
-  }
-  .tk-dir-label {
-    position: absolute;
-    font-size: 9px;
-    color: rgba(255,255,255,0.5);
-    padding: 2px 4px;
-    background: rgba(0,0,0,0.4);
-    border-radius: 3px;
-    white-space: nowrap;
-  }
-  /* Horizontal: positioned around ring edge - Front is lower-left (facing camera) */
-  .tk-dir-front { bottom: 30px; left: 15%; }
-  .tk-dir-rear { top: 95px; right: 20%; }
-  .tk-dir-left { bottom: 25px; right: 15%; }
-  .tk-dir-right { top: 95px; left: 15%; }
-  .tk-dir-lf { left: 8px; top: 50%; transform: translateY(-50%); }
-  .tk-dir-rf { bottom: 20px; left: 50%; transform: translateX(-50%); }
-  .tk-dir-lr { right: 8px; top: 50%; transform: translateY(-50%); }
-  .tk-dir-rr { top: 85px; left: 50%; transform: translateX(-50%); }
-  /* Vertical markers */
-  .tk-dir-above { left: 5px; top: 100px; color: rgba(0,255,200,0.5); }
-  .tk-dir-below { left: 5px; bottom: 60px; color: rgba(0,255,200,0.5); }
+
 
   /* Color Picker Modal */
   .tk-color-picker-overlay {
@@ -20388,21 +20362,7 @@ class CameraWidget {
             <div class="tk-tab ${isLightEnabled ? "" : "disabled"}" data-tab="light">Light</div>
         </div>
       
-        <div class="qwen-multiangle-canvas">
-          <!-- Direction Labels Overlay -->
-          <div class="tk-direction-labels">
-            <div class="tk-dir-label tk-dir-front">Front</div>
-            <div class="tk-dir-label tk-dir-rear">Rear</div>
-            <div class="tk-dir-label tk-dir-left">Left</div>
-            <div class="tk-dir-label tk-dir-right">Right</div>
-            <div class="tk-dir-label tk-dir-lf">L-Front</div>
-            <div class="tk-dir-label tk-dir-rf">R-Front</div>
-            <div class="tk-dir-label tk-dir-lr">L-Rear</div>
-            <div class="tk-dir-label tk-dir-rr">R-Rear</div>
-            <div class="tk-dir-label tk-dir-above">Above ▲</div>
-            <div class="tk-dir-label tk-dir-below">Below ▼</div>
-          </div>
-        </div>
+        <div class="qwen-multiangle-canvas"></div>
         <div class="qwen-multiangle-prompt"></div>
 
         <div class="qwen-multiangle-info">

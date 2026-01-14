@@ -115,21 +115,7 @@ export class CameraWidget {
             <div class="tk-tab ${isLightEnabled ? '' : 'disabled'}" data-tab="light">Light</div>
         </div>
       
-        <div class="qwen-multiangle-canvas">
-          <!-- Direction Labels Overlay -->
-          <div class="tk-direction-labels">
-            <div class="tk-dir-label tk-dir-front">Front</div>
-            <div class="tk-dir-label tk-dir-rear">Rear</div>
-            <div class="tk-dir-label tk-dir-left">Left</div>
-            <div class="tk-dir-label tk-dir-right">Right</div>
-            <div class="tk-dir-label tk-dir-lf">L-Front</div>
-            <div class="tk-dir-label tk-dir-rf">R-Front</div>
-            <div class="tk-dir-label tk-dir-lr">L-Rear</div>
-            <div class="tk-dir-label tk-dir-rr">R-Rear</div>
-            <div class="tk-dir-label tk-dir-above">Above ▲</div>
-            <div class="tk-dir-label tk-dir-below">Below ▼</div>
-          </div>
-        </div>
+        <div class="qwen-multiangle-canvas"></div>
         <div class="qwen-multiangle-prompt"></div>
 
         <div class="qwen-multiangle-info">
